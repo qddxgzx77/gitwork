@@ -1,0 +1,17 @@
+.info_body span{
+	font-weight: bold;
+
+}
+.info_body table span{
+	padding-right: 10px;
+}
+.info_body table td{
+	padding-right: 50px;
+}
+.info_body p span{
+	display: block;
+	padding-top: 10px;
+}
+.info_body p{
+	line-height: 20px;
+}

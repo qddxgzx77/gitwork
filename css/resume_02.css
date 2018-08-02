@@ -1,0 +1,32 @@
+.header{
+	float: left;
+	width: 15%;
+	height: 700px;
+	background-color: #65a4fa;
+}
+.nav{
+	float: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.header h1{
+	color: #fff;
+	margin: 50px 0 0 60px;
+}
+.info_body span{
+	font-weight: bold;
+
+}
+.info_body table span{
+	padding-right: 10px;
+}
+.info_body table td{
+	padding-right: 50px;
+}
+.info_body p span{
+	display: block;
+	padding-top: 10px;
+}
+.info_body p{
+	line-height: 20px;
+}
