@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>第七天到第八天的练习</title>
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	header{
+		background-color: black;
+		overflow: hidden;
+		height: 100px;
+	}
+	.header_logo{
+		width: 960px;
+		margin: 0 auto;
+	}
+	header img{
+		height: 60px;
+		float: left;
+		padding-top: 20px;
+	}
+	.header_logo ul{
+		list-style: none;
+	}
+	.header_logo ul li{
+		float: right;
+		margin-left: 10px;
+		margin-top:10px;
+	}
+	.header_logo ul li a{
+		color: white;
+	}
+	.banner{
+		height: 260px;
+		background-color: #66bb33;
+		position: relative;
+	}
+	.ul_page{
+		list-style: none;
+		position: absolute;
+		right: 40px;
+		bottom:20px;
+	}
+	.ul_page li{
+		border: 1px solid black;
+		float: right;
+		margin: 3px;
+		height: 20px;
+		width: 20px;
+		text-align: center;
+		background-color: #b2dd99;
+		color: #76a15d;
+	}
+	.ul_page li:hover{
+		height: 30px;
+		background-color: white;
+		color: black;
+	}
+	.nav{
+		height: 80px;
+		border-bottom: 1px solid #ddd;
+	}
+	.nav ul{
+		width: 960px;
+		margin: 0 auto;
+		list-style: none;
+
+	}
+	.nav ul li{
+		background-color: #eee;
+		border: 1px solid #ddd;
+		float: left;
+		width: 100px;
+		text-align: center;
+		height: 50px;
+		line-height: 50px;
+		margin-top: 30px;
+		border-radius:10px 10px 0 0;
+	}
+	#nav_on{
+		background-color: white;
+		border-bottom: 1px solid white;
+	}
+	.conten{
+		width: 960px;
+		margin: 0 auto;
+	}
+	article{
+		display: flex;
+		height: 160px;
+		margin: 10px 0;
+	}
+	article div{
+		border: 1px solid #ddd;
+		flex: 1;
+		padding: 80px;
+		margin:0 4px;
+	}
+	footer{
+		height: 100px;
+		background-color: #666;
+		color: white;
+		line-height: 100px;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<div class="header_logo">
+			<img src="images/baidu_06_header_logo.jpg">
+			<ul>
+				<li><a href="#">Github</a></li>
+				<li><a href="#">Register</a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="main">
+		<div class="banner">
+			<ul class="ul_page">				
+				<li>4</li>
+				<li>3</li>
+				<li>2</li>
+				<li>1</li>
+			</ul>
+		</div>
+		<div class="nav">
+			<ul>				
+				<li id="nav_on">HOME</li>
+				<li>FROFILE</li>
+				<li>ABOUT</li>
+			</ul>
+		</div>
+		<div class="conten">
+			<article>
+				<div>This is Content1</div>
+				<div>MaybeContent2</div>
+				<div>Content3</div>
+			</article>
+			<article>
+				<div>Content4</div>
+				<div>Content5</div>
+				<div>Content6</div>
+				<div>Content7</div>
+			</article>
+			<article>
+				<div>Content8</div>
+				<div>Content9</div>
+				<div>Content10</div>
+			</article>
+		</div>
+	</div>
+	<footer>
+		© 2018 ife.baidu.com
+	</footer>
+</body>
+</html>
