@@ -45,17 +45,21 @@
 		bottom:20px;
 	}
 	.ul_page li{
-		border: 1px solid black;
-		float: right;
-		margin: 3px;
+		display: inline-block;
+		margin-right:  10px;
+	}
+	.ul_page li a{
+		display: block;
+		border: 1px solid black;	
 		height: 20px;
 		width: 20px;
 		text-align: center;
 		background-color: #b2dd99;
 		color: #76a15d;
+		text-decoration: none;
 	}
-	.ul_page li:hover{
-		height: 30px;
+	.banner .ul_page li a:hover{
+		padding-top:10px;
 		background-color: white;
 		color: black;
 	}
@@ -122,10 +126,10 @@
 	<div class="main">
 		<div class="banner">
 			<ul class="ul_page">				
-				<li>4</li>
-				<li>3</li>
-				<li>2</li>
-				<li>1</li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
 			</ul>
 		</div>
 		<div class="nav">
